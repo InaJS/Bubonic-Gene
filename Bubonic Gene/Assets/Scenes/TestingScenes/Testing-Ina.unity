@@ -3570,6 +3570,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1598348845}
     m_Modifications:
+    - target: {fileID: 1543216753085116367, guid: ca014879105e38940824f2aeca60623c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1543216753092369487, guid: ca014879105e38940824f2aeca60623c, type: 3}
       propertyPath: m_Name
       value: PT_Medieval_Plague_Doctor
