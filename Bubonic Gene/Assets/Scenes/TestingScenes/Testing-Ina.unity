@@ -818,6 +818,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 62.321
       objectReference: {fileID: 0}
+    - target: {fileID: 922888070487379783, guid: fad282b687f07494e96050983faecc7a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00000023841858
+      objectReference: {fileID: 0}
+    - target: {fileID: 922888070487379783, guid: fad282b687f07494e96050983faecc7a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 48.02648
+      objectReference: {fileID: 0}
+    - target: {fileID: 922888070487379783, guid: fad282b687f07494e96050983faecc7a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00000017881393
+      objectReference: {fileID: 0}
+    - target: {fileID: 922888070487379783, guid: fad282b687f07494e96050983faecc7a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9934092
+      objectReference: {fileID: 0}
+    - target: {fileID: 922888070487379783, guid: fad282b687f07494e96050983faecc7a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0002551392
+      objectReference: {fileID: 0}
+    - target: {fileID: 922888070487379783, guid: fad282b687f07494e96050983faecc7a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.050860703
+      objectReference: {fileID: 0}
+    - target: {fileID: 922888070487379783, guid: fad282b687f07494e96050983faecc7a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.10271966
+      objectReference: {fileID: 0}
+    - target: {fileID: 922888070487379783, guid: fad282b687f07494e96050983faecc7a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 948091449824669171, guid: fad282b687f07494e96050983faecc7a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.000010887753
@@ -1024,7 +1056,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6047164066283045180, guid: fad282b687f07494e96050983faecc7a, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6244767360926890609, guid: fad282b687f07494e96050983faecc7a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2204,7 +2236,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &913107860
 Transform:
   m_ObjectHideFlags: 0
