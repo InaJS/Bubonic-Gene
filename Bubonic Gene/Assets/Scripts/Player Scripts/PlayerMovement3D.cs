@@ -7,14 +7,22 @@ public class PlayerMovement3D : MonoBehaviour
 
     public CharacterController Controller;
 
+    public Rigidbody Rb;
     public float Speed = 6f;
 
+    Vector3 movement;
+    public Animator Animator;
     public float TurnSmoothTime = 0.1f;
     float TurnSmoothVelocity;
 
+   
     // Update is called once per frame
+   
+   
     void Update()
     {
+
+    
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
@@ -29,5 +37,34 @@ public class PlayerMovement3D : MonoBehaviour
 
             Controller.Move(direction * Speed * Time.deltaTime);
         }
+    
+      {
+           Controller.Move(Physics.gravity * Time.deltaTime);         
+      }
+
+        if (Input.GetAxisRaw("Horizontal") >= 1)
+       
+       Animator.SetFloat("Walking", 1);
+
+       if (Input.GetAxisRaw("Horizontal") <= 0)
+       
+      Animator.SetFloat("Walking", 0);
+
+       if (Input.GetAxisRaw("Horizontal") <= -0.5)
+       
+       Animator.SetFloat("Walking", 1);
+
+       if (Input.GetAxisRaw("Vertical") >= 1)
+       
+       Animator.SetFloat("WalkingUp", 1);
+
+       if (Input.GetAxisRaw("Vertical") <= 0)
+       
+      Animator.SetFloat("WalkingUp", 0);
+
+       if (Input.GetAxisRaw("Vertical") <= -0.5)
+       
+       Animator.SetFloat("WalkingUp", 1);
+        
     }
 }
