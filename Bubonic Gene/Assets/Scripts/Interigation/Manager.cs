@@ -10,6 +10,7 @@ public class Manager : MonoBehaviour
     [SerializeField] private Text Name;
     [SerializeField] private Text Words;
 
+    [SerializeField] private GameObject MainView;
     [SerializeField] private Canvas Questions;
     [SerializeField] private Canvas Choice;
     [SerializeField] private Canvas Conversastion;
@@ -32,54 +33,110 @@ public class Manager : MonoBehaviour
     public void StartQuestion(Dialouge Character, int Index, int NQuest)
     {
         Questions.enabled = false;
-        Conversastion.enabled = true;
-        sentences.Clear();
-
-        Name.text = Character.name;
-
-        if(NQuest == 1)
-            Words.text = Character.QAnsers1[Index];
-
-
-        if (NQuest == 2)
-            Words.text = Character.QAnsers2[Index];
-
-
-        if (NQuest == 3)
-            Words.text = Character.QAnsers3[Index];
-
-
-        if (NQuest == 4)
-            Words.text = Character.QAnsers4[Index];
-    }
-
-    public void StartChoosing(Dialouge Character, int Index, int NQuest)
-    {
-        Questions.enabled = false;
+        Choice.enabled = false;
         Conversastion.enabled = true;
         sentences.Clear();
 
         Name.text = Character.name;
 
         if (NQuest == 1)
-            Words.text = Character.choice1[Index];
-
+        {
+            Words.text = Character.QAnsers1[Index];
+            StopAllCoroutines();
+            StartCoroutine(TypeSentence(Words.text));
+        }
 
         if (NQuest == 2)
-            Words.text = Character.choice2[Index];
-
+        {
+            Words.text = Character.QAnsers2[Index];
+            StopAllCoroutines();
+            StartCoroutine(TypeSentence(Words.text));
+        }
 
         if (NQuest == 3)
-            Words.text = Character.choice3[Index];
+            ShowChoices();
 
 
         if (NQuest == 4)
-            Words.text = Character.choice4[Index];
+        { 
+            Words.text = Character.QAnsers4[Index];
+            StopAllCoroutines();
+            StartCoroutine(TypeSentence(Words.text));
+        }
     }
 
-    public void StartChoices()
+    public void StartChoosing(Dialouge Character, int Index, int NQuest)
+    {
+       
+        Questions.enabled = false;
+        Choice.enabled = false;
+        Conversastion.enabled = true;
+        sentences.Clear();
+
+        Name.text = Character.name;
+
+        if (NQuest == 1)
+        { 
+            Words.text = Character.choice1[Index];
+            StopAllCoroutines();
+            StartCoroutine(TypeSentence(Words.text));
+        }
+
+        if (NQuest == 2)
+        { 
+            Words.text = Character.choice2[Index];
+            StopAllCoroutines();
+            StartCoroutine(TypeSentence(Words.text));
+        }
+
+        if (NQuest == 3)
+        { 
+            Words.text = Character.choice3[Index];
+            StopAllCoroutines();
+            StartCoroutine(TypeSentence(Words.text));
+        }
+
+        if (NQuest == 4)
+        {
+            Words.text = Character.choice4[Index];
+            StopAllCoroutines();
+            StartCoroutine(TypeSentence(Words.text));
+        }
+    }
+
+    IEnumerator TypeSentence (string sentence)
+    {
+        
+        Words.text = "";
+        
+        foreach (char letter in sentence.ToCharArray())
+        {
+            Words.text += letter;
+            yield return new WaitForSecondsRealtime(0.015f);
+        }
+    }
+
+    public void ShowQuestions()
     {
         Questions.enabled = true;
         Conversastion.enabled = false;
+        Choice.enabled = false;
+    }
+
+    public void ShowChoices()
+    {
+        Questions.enabled = false;
+        Conversastion.enabled = false;
+        Choice.enabled = true;
+    }
+
+    public void EndConversastion()
+    {
+        MainView.SetActive(false);
+    }
+
+    public void StartConversastion()
+    {
+        MainView.SetActive(true);
     }
 }
