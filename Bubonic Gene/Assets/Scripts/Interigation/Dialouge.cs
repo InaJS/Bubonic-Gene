@@ -8,6 +8,8 @@ public class Dialouge : MonoBehaviour
 
     public string name;
 
+    public Animator Character;
+
     [TextArea(3,10)]
     public string[] sentences;
 
