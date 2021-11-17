@@ -19,7 +19,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 54.898, y: -37.694, z: -44.192}
+        value: {x: 47.214, y: 3.625, z: 3.734}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -29,13 +29,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: PT_Medieval_Male_Hips/PT_Medieval_Male_Spine/PT_Medieval_Male_Spine2/PT_Medieval_Male_Spine3/PT_Medieval_Male_RightShoulder/PT_Medieval_Male_RightArm
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_RightShoulder/girlBone_RightArm
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -5.034, y: -2.698, z: 7.847}
+        value: {x: 47.212, y: -3.625, z: -3.734}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -45,14 +45,46 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: PT_Medieval_Male_Hips/PT_Medieval_Male_Spine/PT_Medieval_Male_Spine2/PT_Medieval_Male_Spine3/PT_Medieval_Male_RightShoulder/PT_Medieval_Male_RightArm/PT_Medieval_Male_RightForeArm
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_LeftShoulder/girlBone_LeftArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 5.55, y: -0.345, z: 1.214}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_RightShoulder/girlBone_RightArm/girlBone_RightForeArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.32, y: 5.145, z: -7.57}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_LeftShoulder/girlBone_LeftArm/girlBone_LeftForeArm
   m_PositionCurves:
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.0030673058, y: -0.1171592, z: 0.027578626}
+        value: {x: 0.000000021769665, y: 0.06149167, z: -0.00000007357449}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -62,13 +94,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: PT_Medieval_Male_Hips/PT_Medieval_Male_Spine/PT_Medieval_Male_Spine2/PT_Medieval_Male_Spine3/PT_Medieval_Male_RightShoulder/PT_Medieval_Male_RightArm
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_RightShoulder/girlBone_RightArm
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0.0016886592, y: -0.2694038, z: 0.037285194}
+        value: {x: -0.00000001979061, y: 0.061491635, z: -0.00000049546367}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -78,7 +110,39 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: PT_Medieval_Male_Hips/PT_Medieval_Male_Spine/PT_Medieval_Male_Spine2/PT_Medieval_Male_Spine3/PT_Medieval_Male_RightShoulder/PT_Medieval_Male_RightArm/PT_Medieval_Male_RightForeArm
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_LeftShoulder/girlBone_LeftArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.0053181634, y: 0.16356942, z: -0.0000014528632}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_RightShoulder/girlBone_RightArm/girlBone_RightForeArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.005318104, y: 0.16356976, z: -0.0000012367967}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_LeftShoulder/girlBone_LeftArm/girlBone_LeftForeArm
   m_ScaleCurves: []
   m_FloatCurves: []
   m_PPtrCurves: []
@@ -90,28 +154,56 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 1487821392
+      path: 3822092485
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2321765092
+      path: 1580224120
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1487821392
+      path: 2014674698
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 365870521
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3822092485
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2321765092
+      path: 1580224120
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2014674698
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 365870521
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -144,7 +236,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.0030673058
+        value: 0.000000021769665
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -155,7 +247,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: PT_Medieval_Male_Hips/PT_Medieval_Male_Spine/PT_Medieval_Male_Spine2/PT_Medieval_Male_Spine3/PT_Medieval_Male_RightShoulder/PT_Medieval_Male_RightArm
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_RightShoulder/girlBone_RightArm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -163,7 +255,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.1171592
+        value: 0.06149167
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -174,7 +266,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: PT_Medieval_Male_Hips/PT_Medieval_Male_Spine/PT_Medieval_Male_Spine2/PT_Medieval_Male_Spine3/PT_Medieval_Male_RightShoulder/PT_Medieval_Male_RightArm
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_RightShoulder/girlBone_RightArm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -182,7 +274,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.027578626
+        value: -0.00000007357449
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -193,7 +285,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: PT_Medieval_Male_Hips/PT_Medieval_Male_Spine/PT_Medieval_Male_Spine2/PT_Medieval_Male_Spine3/PT_Medieval_Male_RightShoulder/PT_Medieval_Male_RightArm
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_RightShoulder/girlBone_RightArm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -201,7 +293,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 54.898
+        value: 47.214
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -212,7 +304,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: PT_Medieval_Male_Hips/PT_Medieval_Male_Spine/PT_Medieval_Male_Spine2/PT_Medieval_Male_Spine3/PT_Medieval_Male_RightShoulder/PT_Medieval_Male_RightArm
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_RightShoulder/girlBone_RightArm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -220,7 +312,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -37.694
+        value: 3.625
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -231,7 +323,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: PT_Medieval_Male_Hips/PT_Medieval_Male_Spine/PT_Medieval_Male_Spine2/PT_Medieval_Male_Spine3/PT_Medieval_Male_RightShoulder/PT_Medieval_Male_RightArm
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_RightShoulder/girlBone_RightArm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -239,7 +331,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -44.192
+        value: 3.734
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -250,7 +342,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: PT_Medieval_Male_Hips/PT_Medieval_Male_Spine/PT_Medieval_Male_Spine2/PT_Medieval_Male_Spine3/PT_Medieval_Male_RightShoulder/PT_Medieval_Male_RightArm
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_RightShoulder/girlBone_RightArm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -258,7 +350,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.0016886592
+        value: -0.00000001979061
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -269,7 +361,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: PT_Medieval_Male_Hips/PT_Medieval_Male_Spine/PT_Medieval_Male_Spine2/PT_Medieval_Male_Spine3/PT_Medieval_Male_RightShoulder/PT_Medieval_Male_RightArm/PT_Medieval_Male_RightForeArm
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_LeftShoulder/girlBone_LeftArm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -277,7 +369,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.2694038
+        value: 0.061491635
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -288,7 +380,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: PT_Medieval_Male_Hips/PT_Medieval_Male_Spine/PT_Medieval_Male_Spine2/PT_Medieval_Male_Spine3/PT_Medieval_Male_RightShoulder/PT_Medieval_Male_RightArm/PT_Medieval_Male_RightForeArm
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_LeftShoulder/girlBone_LeftArm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -296,7 +388,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.037285194
+        value: -0.00000049546367
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -307,7 +399,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: PT_Medieval_Male_Hips/PT_Medieval_Male_Spine/PT_Medieval_Male_Spine2/PT_Medieval_Male_Spine3/PT_Medieval_Male_RightShoulder/PT_Medieval_Male_RightArm/PT_Medieval_Male_RightForeArm
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_LeftShoulder/girlBone_LeftArm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -315,7 +407,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -5.034
+        value: 47.212
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -326,7 +418,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: PT_Medieval_Male_Hips/PT_Medieval_Male_Spine/PT_Medieval_Male_Spine2/PT_Medieval_Male_Spine3/PT_Medieval_Male_RightShoulder/PT_Medieval_Male_RightArm/PT_Medieval_Male_RightForeArm
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_LeftShoulder/girlBone_LeftArm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -334,7 +426,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -2.698
+        value: -3.625
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -345,7 +437,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: PT_Medieval_Male_Hips/PT_Medieval_Male_Spine/PT_Medieval_Male_Spine2/PT_Medieval_Male_Spine3/PT_Medieval_Male_RightShoulder/PT_Medieval_Male_RightArm/PT_Medieval_Male_RightForeArm
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_LeftShoulder/girlBone_LeftArm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -353,7 +445,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 7.847
+        value: -3.734
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -364,7 +456,235 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: PT_Medieval_Male_Hips/PT_Medieval_Male_Spine/PT_Medieval_Male_Spine2/PT_Medieval_Male_Spine3/PT_Medieval_Male_RightShoulder/PT_Medieval_Male_RightArm/PT_Medieval_Male_RightForeArm
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_LeftShoulder/girlBone_LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.0053181634
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_RightShoulder/girlBone_RightArm/girlBone_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.16356942
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_RightShoulder/girlBone_RightArm/girlBone_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.0000014528632
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_RightShoulder/girlBone_RightArm/girlBone_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 5.55
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_RightShoulder/girlBone_RightArm/girlBone_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.345
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_RightShoulder/girlBone_RightArm/girlBone_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.214
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_RightShoulder/girlBone_RightArm/girlBone_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.005318104
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_LeftShoulder/girlBone_LeftArm/girlBone_LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.16356976
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_LeftShoulder/girlBone_LeftArm/girlBone_LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.0000012367967
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_LeftShoulder/girlBone_LeftArm/girlBone_LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.32
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_LeftShoulder/girlBone_LeftArm/girlBone_LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 5.145
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_LeftShoulder/girlBone_LeftArm/girlBone_LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -7.57
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_LeftShoulder/girlBone_LeftArm/girlBone_LeftForeArm
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves:
@@ -375,7 +695,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: PT_Medieval_Male_Hips/PT_Medieval_Male_Spine/PT_Medieval_Male_Spine2/PT_Medieval_Male_Spine3/PT_Medieval_Male_RightShoulder/PT_Medieval_Male_RightArm
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_RightShoulder/girlBone_RightArm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -385,7 +705,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: PT_Medieval_Male_Hips/PT_Medieval_Male_Spine/PT_Medieval_Male_Spine2/PT_Medieval_Male_Spine3/PT_Medieval_Male_RightShoulder/PT_Medieval_Male_RightArm
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_RightShoulder/girlBone_RightArm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -395,7 +715,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: PT_Medieval_Male_Hips/PT_Medieval_Male_Spine/PT_Medieval_Male_Spine2/PT_Medieval_Male_Spine3/PT_Medieval_Male_RightShoulder/PT_Medieval_Male_RightArm
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_RightShoulder/girlBone_RightArm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -405,7 +725,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: PT_Medieval_Male_Hips/PT_Medieval_Male_Spine/PT_Medieval_Male_Spine2/PT_Medieval_Male_Spine3/PT_Medieval_Male_RightShoulder/PT_Medieval_Male_RightArm/PT_Medieval_Male_RightForeArm
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_LeftShoulder/girlBone_LeftArm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -415,7 +735,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: PT_Medieval_Male_Hips/PT_Medieval_Male_Spine/PT_Medieval_Male_Spine2/PT_Medieval_Male_Spine3/PT_Medieval_Male_RightShoulder/PT_Medieval_Male_RightArm/PT_Medieval_Male_RightForeArm
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_LeftShoulder/girlBone_LeftArm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -425,7 +745,67 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: PT_Medieval_Male_Hips/PT_Medieval_Male_Spine/PT_Medieval_Male_Spine2/PT_Medieval_Male_Spine3/PT_Medieval_Male_RightShoulder/PT_Medieval_Male_RightArm/PT_Medieval_Male_RightForeArm
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_LeftShoulder/girlBone_LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_RightShoulder/girlBone_RightArm/girlBone_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_RightShoulder/girlBone_RightArm/girlBone_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_RightShoulder/girlBone_RightArm/girlBone_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_LeftShoulder/girlBone_LeftArm/girlBone_LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_LeftShoulder/girlBone_LeftArm/girlBone_LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: girlBone_root/girlBone_Hips/girlBone_Spine/girlBone_Spine1/girlBone_Spine2/girlBone_LeftShoulder/girlBone_LeftArm/girlBone_LeftForeArm
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
