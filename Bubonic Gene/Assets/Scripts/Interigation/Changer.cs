@@ -123,7 +123,7 @@ public class Changer : MonoBehaviour
 
         else if (Questioning == 2)
         {
-            print(Character);
+            
             if (NQuest == 1)
                 Number = Main.choice1.Length;
 
