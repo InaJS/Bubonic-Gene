@@ -1135,6 +1135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4894562972141758230}
   - component: {fileID: 7472596378241203673}
+  - component: {fileID: 5365027887800853280}
   m_Layer: 0
   m_Name: Poncho
   m_TagString: Untagged
@@ -1414,6 +1415,47 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.12624359, y: 147.81697, z: -0.6374016}
     m_Extent: {x: 32.005173, y: 17.350006, z: 24.278511}
   m_DirtyAABB: 0
+--- !u!23 &5365027887800853280
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307064457173651815}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1434803534325951342
 GameObject:
   m_ObjectHideFlags: 0
@@ -1766,6 +1808,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5161617894258913713}
   - component: {fileID: 7266994540598609524}
+  - component: {fileID: 5373030192148676234}
   m_Layer: 0
   m_Name: Mascara
   m_TagString: Untagged
@@ -2045,6 +2088,47 @@ SkinnedMeshRenderer:
     m_Center: {x: 5.1070633, y: 164.70235, z: 13.827656}
     m_Extent: {x: 17.205036, y: 14.176407, z: 22.008385}
   m_DirtyAABB: 0
+--- !u!23 &5373030192148676234
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2357319268060933468}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2387338681891867796
 GameObject:
   m_ObjectHideFlags: 0
@@ -2693,6 +2777,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4907795642628874797}
   - component: {fileID: 1277242932731919735}
+  - component: {fileID: 7804517265242296953}
   m_Layer: 0
   m_Name: Sombrero
   m_TagString: Untagged
@@ -2972,6 +3057,47 @@ SkinnedMeshRenderer:
     m_Center: {x: 2.711708, y: 177.1766, z: 8.499479}
     m_Extent: {x: 19.901978, y: 11.360764, z: 21.71499}
   m_DirtyAABB: 0
+--- !u!23 &7804517265242296953
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3241316787794899532}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3307346730418045590
 GameObject:
   m_ObjectHideFlags: 0
@@ -4312,6 +4438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6838497035312011360}
   - component: {fileID: 5348254573896497754}
+  - component: {fileID: 7217163839932651898}
   m_Layer: 0
   m_Name: Zapatos
   m_TagString: Untagged
@@ -4591,6 +4718,47 @@ SkinnedMeshRenderer:
     m_Center: {x: 2.149767, y: 3.358841, z: 6.6876335}
     m_Extent: {x: 27.046776, y: 11.883798, z: 20.351618}
   m_DirtyAABB: 0
+--- !u!23 &7217163839932651898
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5622812994458430216}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5652743607242694303
 GameObject:
   m_ObjectHideFlags: 0
@@ -4887,6 +5055,7 @@ GameObject:
   - component: {fileID: 6047164066283045178}
   - component: {fileID: 6047164066283045180}
   - component: {fileID: 6047164066283045179}
+  - component: {fileID: 5470254148792409122}
   m_Layer: 0
   m_Name: PlagueDoctor
   m_TagString: Untagged
@@ -5223,6 +5392,47 @@ MonoBehaviour:
   - m_Rig: {fileID: 0}
     m_Active: 1
   m_Effectors: []
+--- !u!23 &5470254148792409122
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6047164066283045177}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6148477425162668417
 GameObject:
   m_ObjectHideFlags: 0
@@ -6165,6 +6375,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2736482593019069245}
   - component: {fileID: 2155809214059021092}
+  - component: {fileID: 3204036328174382714}
   m_Layer: 0
   m_Name: Manos
   m_TagString: Untagged
@@ -6444,6 +6655,14 @@ SkinnedMeshRenderer:
     m_Center: {x: 8.408821, y: 95.45108, z: 16.612467}
     m_Extent: {x: 40.00745, y: 21.245392, z: 15.15538}
   m_DirtyAABB: 0
+--- !u!33 &3204036328174382714
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7402717944969012802}
+  m_Mesh: {fileID: 0}
 --- !u!1 &7419792209117343810
 GameObject:
   m_ObjectHideFlags: 0
@@ -6666,6 +6885,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1054119390071027527}
   - component: {fileID: 1917744697732085164}
+  - component: {fileID: 2592544620294730619}
   m_Layer: 0
   m_Name: Pantalon
   m_TagString: Untagged
@@ -6945,6 +7165,47 @@ SkinnedMeshRenderer:
     m_Center: {x: 1.1875, y: 58.451355, z: 2.4196177}
     m_Extent: {x: 26.461426, y: 55.44329, z: 19.271732}
   m_DirtyAABB: 0
+--- !u!23 &2592544620294730619
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7614013859553787335}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7668806556763395731
 GameObject:
   m_ObjectHideFlags: 0
