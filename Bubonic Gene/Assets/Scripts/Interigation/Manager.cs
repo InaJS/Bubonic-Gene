@@ -15,6 +15,8 @@ public class Manager : MonoBehaviour
     [SerializeField] private Canvas Choice;
     [SerializeField] private Canvas Conversastion;
 
+    [SerializeField] private GameObject Menu;
+
     private void Start()
     {
         sentences = new Queue<string>();
@@ -22,7 +24,6 @@ public class Manager : MonoBehaviour
 
     public void StartDialouge(Dialouge Character, int Index)
     {
-        sentences.Clear();
 
         Name.text = Character.name;
 
@@ -133,10 +134,19 @@ public class Manager : MonoBehaviour
     public void EndConversastion()
     {
         MainView.SetActive(false);
+        Menu.SetActive(true);
     }
 
     public void StartConversastion()
     {
         MainView.SetActive(true);
+        Menu.SetActive(false);
+
+        FindObjectOfType<Changer>().TriggerDialouge();
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }

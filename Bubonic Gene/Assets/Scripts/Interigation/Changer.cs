@@ -27,6 +27,8 @@ public class Changer : MonoBehaviour
 
     private static int Number;
 
+    private int mood;
+
     [SerializeField] private RawImage MainCh;
     [SerializeField] private RawImage TargetCh;
 
@@ -38,6 +40,8 @@ public class Changer : MonoBehaviour
         Index = 0;
 
         NChoices = 0;
+
+        Target.Character.SetBool("Neutral", true);
     }
 
     public void TriggerDialouge()
@@ -52,6 +56,9 @@ public class Changer : MonoBehaviour
                     FindObjectOfType<Manager>().StartDialouge(Main, Index);
                     MainCh.GetComponent<RawImage>().color = Color.white;
                     TargetCh.GetComponent<RawImage>().color = Color.gray;
+
+                    Target.Character.SetBool("IsTalking", false);
+
                     Character++;
                 }
 
@@ -60,6 +67,10 @@ public class Changer : MonoBehaviour
                     FindObjectOfType<Manager>().StartDialouge(Target, Index);
                     MainCh.GetComponent<RawImage>().color = Color.gray;
                     TargetCh.GetComponent<RawImage>().color = Color.white;
+
+                    
+                    Target.Character.SetBool("IsTalking", true);
+
                     Character = 0;
                     Index++;
                     NChoices++;
@@ -71,6 +82,8 @@ public class Changer : MonoBehaviour
                 FindObjectOfType<Manager>().ShowQuestions();
                 Questioning = 1;
                 NChoices = 0;
+
+                Target.Character.SetBool("IsTalking", false);
 
                 Index = 0;
             }
@@ -100,6 +113,9 @@ public class Changer : MonoBehaviour
                     FindObjectOfType<Manager>().StartQuestion(Main, Index, NQuest);
                     MainCh.GetComponent<RawImage>().color = Color.white;
                     TargetCh.GetComponent<RawImage>().color = Color.gray;
+
+                    Target.Character.SetBool("IsTalking", false);
+
                     Character++;
                 }
 
@@ -108,6 +124,9 @@ public class Changer : MonoBehaviour
                     FindObjectOfType<Manager>().StartQuestion(Target, Index, NQuest);
                     MainCh.GetComponent<RawImage>().color = Color.gray;
                     TargetCh.GetComponent<RawImage>().color = Color.white;
+
+                    Target.Character.SetBool("IsTalking", true);
+
                     Character = 0;
                     Index++;
                     NChoices++;
@@ -116,6 +135,7 @@ public class Changer : MonoBehaviour
             
             else if (Number <= Index)
             {
+                Target.Character.SetBool("IsTalking", false);
                 Index = 0;
                 FindObjectOfType<Manager>().ShowQuestions();
             }
@@ -147,6 +167,8 @@ public class Changer : MonoBehaviour
                     MainCh.GetComponent<RawImage>().color = Color.white;
                     TargetCh.GetComponent<RawImage>().color = Color.gray;
                     Character++;
+
+                    Target.Character.SetBool("IsTalking", false);
                 }
 
                 else if (Character == 1)
@@ -157,6 +179,8 @@ public class Changer : MonoBehaviour
                     Character = 0;
                     Index++;
                     NChoices++;
+
+                    Target.Character.SetBool("IsTalking", true);
                 }
             }
 
@@ -164,6 +188,7 @@ public class Changer : MonoBehaviour
             {
                 Index = 0;
                 FindObjectOfType<Manager>().ShowChoices();
+                Target.Character.SetBool("IsTalking", false);
             }
         }
 
@@ -196,7 +221,7 @@ public class Changer : MonoBehaviour
 
     }
 
-    public void SetChoice(int C, int q, char k)
+    public void SetChoice(int C, int q, char k, char m)
     {
         if (k == 'Q')
         {
@@ -209,7 +234,56 @@ public class Changer : MonoBehaviour
         {
             Questioning = 2;
             NQuest = C;
-            TriggerDialouge();
+
+            if(m == 'N')
+            {
+                mood = 1;
+            }
+            if(m == 'A')
+            {
+                mood = 2;
+            }
+            if(m == 'H')
+            {
+                mood = 3;
+            }
+
+            SetMood(mood);
+        }
+    }
+
+    private void SetMood(int a)
+    {
+        if (a == 1)
+        {
+            if(Target.Character.GetBool("Angry") == true || Target.Character.GetBool("Happy") == true)
+            {
+                Target.Character.SetBool("Happy", false);
+                Target.Character.SetBool("Angry", false);
+                Target.Character.SetBool("Neutral", true);
+                TriggerDialouge();
+            }
+            else
+            {
+                Target.Character.SetBool("Neutral", true);
+                TriggerDialouge();
+            }   
+        }
+
+        if (a == 2)
+        {
+            if (Target.Character.GetBool("Neutral") == true || Target.Character.GetBool("Happy") == true)
+            {
+                Target.Character.SetBool("Happy", false);
+                Target.Character.SetBool("Angry", true);
+                Target.Character.SetBool("Neutral", false);
+                TriggerDialouge();
+            }
+            else
+            {
+                Target.Character.SetBool("Angry", true);
+                TriggerDialouge();
+            }
         }
     }
 }

@@ -10,8 +10,10 @@ public class NButton : MonoBehaviour
 
     [SerializeField] private char Kind;
 
+    [SerializeField] private char Mood;
+
     public void ConvCon()
     {
-        FindObjectOfType<Changer>().SetChoice(Choices, Question, Kind);
+        FindObjectOfType<Changer>().SetChoice(Choices, Question, Kind, Mood);
     }
 }
