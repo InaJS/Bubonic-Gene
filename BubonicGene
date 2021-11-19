@@ -1,9 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2021-11-17T15:04:19.264Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="JSuMJnqfUTn4uVtdKdtO" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-19T19:19:32.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="qMa5NegjoppE-BMi-mlY" version="15.8.2" type="github">
   <diagram id="tuacdaGRgGz0a9UytR1O" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#003300" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="2222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#003300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--1" value="Apprentice /&lt;br&gt;Plague Doctor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-10" width="920" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="N6PZ5Fj1vqjHZebcT3R--2" target="N6PZ5Fj1vqjHZebcT3R--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--2" value="Poor Teen Male &lt;br&gt;NPC 1&lt;br&gt;Disease 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="N6PZ5Fj1vqjHZebcT3R--3" target="N6PZ5Fj1vqjHZebcT3R--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--3" value="Poor Teen Female NPC 2&lt;br&gt;Disease 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="N6PZ5Fj1vqjHZebcT3R--4" target="N6PZ5Fj1vqjHZebcT3R--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--4" value="Poor Child Female NPC 4&lt;br&gt;Disease 4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="N6PZ5Fj1vqjHZebcT3R--5" target="N6PZ5Fj1vqjHZebcT3R--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--5" value="Poor Child Male &lt;br&gt;NPC 3&lt;br&gt;Disease 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N6PZ5Fj1vqjHZebcT3R--6" target="N6PZ5Fj1vqjHZebcT3R--31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--6" value="Non-binary Doctor &lt;br&gt;NPC 7&lt;br&gt;PLAGUE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--7" value="Level Design - &lt;br&gt;Linear &amp;gt; Left-to-Right" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="920" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--8" value="STORY -&lt;br&gt;Part 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--9" value="STORY -&lt;br&gt;Part 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--10" value="STORY -&lt;br&gt;Part 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--11" value="STORY -&lt;br&gt;Part 4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--25" value="Tuberculosis" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--26" value="Scurvy?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--27" value="Pneumonia" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="N6PZ5Fj1vqjHZebcT3R--28" target="N6PZ5Fj1vqjHZebcT3R--29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--28" value="Rich Adult Male &lt;br&gt;NPC 5&lt;br&gt;Disease 5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--29" value="STORY -&lt;br&gt;Part 5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--30" value="Rich Adult Female &lt;br&gt;NPC 6&lt;br&gt;Disease 6" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--31" value="STORY -&lt;br&gt;Part 6" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="N6PZ5Fj1vqjHZebcT3R--7" target="N6PZ5Fj1vqjHZebcT3R--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--33" value="Jaundice&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--34" value="Jaundice&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N6PZ5Fj1vqjHZebcT3R--35" value="Jaundice&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
