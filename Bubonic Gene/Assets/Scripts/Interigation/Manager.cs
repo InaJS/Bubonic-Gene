@@ -133,6 +133,11 @@ public class Manager : MonoBehaviour
 
     public void EndConversastion()
     {
+        Questions.enabled = false;
+        Conversastion.enabled = true;
+        Choice.enabled = false;
+
+        FindObjectOfType<Changer>().DialougeEnd();
         MainView.SetActive(false);
         Menu.SetActive(true);
     }
@@ -147,6 +152,7 @@ public class Manager : MonoBehaviour
 
     public void QuitGame()
     {
+
         Application.Quit();
     }
 }

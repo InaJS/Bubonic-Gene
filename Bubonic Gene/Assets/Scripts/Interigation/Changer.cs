@@ -196,9 +196,12 @@ public class Changer : MonoBehaviour
 
     public void DialougeEnd()
     {
+        print("Ending Conversestion");
         Character = 0;
-
+        Questioning = 0;
         Index = 0;
+
+        print(Index+ ""+ Questioning + "" + Character);
     }
 
     public void Prev()
@@ -252,9 +255,9 @@ public class Changer : MonoBehaviour
         }
     }
 
-    private void SetMood(int a)
+    private void SetMood(int WhatMood)
     {
-        if (a == 1)
+        if (WhatMood == 1)
         {
             if(Target.Character.GetBool("Angry") == true || Target.Character.GetBool("Happy") == true)
             {
@@ -270,7 +273,7 @@ public class Changer : MonoBehaviour
             }   
         }
 
-        if (a == 2)
+        if (WhatMood == 2)
         {
             if (Target.Character.GetBool("Neutral") == true || Target.Character.GetBool("Happy") == true)
             {
