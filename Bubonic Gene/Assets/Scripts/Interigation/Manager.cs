@@ -10,12 +10,15 @@ public class Manager : MonoBehaviour
     [SerializeField] private Text Name;
     [SerializeField] private Text Words;
 
-    [SerializeField] private GameObject MainView;
+    [SerializeField] private Canvas MainView;
     [SerializeField] private Canvas Questions;
     [SerializeField] private Canvas Choice;
     [SerializeField] private Canvas Conversastion;
 
     [SerializeField] private GameObject Menu;
+    [SerializeField] private GameObject Player;
+
+    [SerializeField] private GameObject Changer;
 
     private void Start()
     {
@@ -137,17 +140,21 @@ public class Manager : MonoBehaviour
         Conversastion.enabled = true;
         Choice.enabled = false;
 
-        FindObjectOfType<Changer>().DialougeEnd();
-        MainView.SetActive(false);
-        Menu.SetActive(true);
+        Changer.GetComponent<Changer>().DialougeEnd();
+        MainView.enabled = false;
+        Player.GetComponent<CharacterController>().enabled = true;
+        Player.GetComponent<PlayerMovement3D>().enabled = true;
+        //Menu.SetActive(true);
     }
 
     public void StartConversastion()
     {
-        MainView.SetActive(true);
-        Menu.SetActive(false);
+        Player.GetComponent<CharacterController>().enabled = false;
+        Player.GetComponent<PlayerMovement3D>().enabled = false;
+        MainView.enabled = true;
+        //Menu.SetActive(false);
 
-        FindObjectOfType<Changer>().TriggerDialouge();
+        Changer.GetComponent<Changer>().TriggerDialouge();
     }
 
     public void QuitGame()

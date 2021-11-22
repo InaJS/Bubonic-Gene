@@ -32,6 +32,8 @@ public class Changer : MonoBehaviour
     [SerializeField] private RawImage MainCh;
     [SerializeField] private RawImage TargetCh;
 
+    [SerializeField] private GameObject Manager;
+
 
     private void Start()
     {
@@ -41,11 +43,15 @@ public class Changer : MonoBehaviour
 
         NChoices = 0;
 
-        Target.Character.SetBool("Neutral", true);
+        //Target.Character.SetBool("Neutral", true);
     }
 
     public void TriggerDialouge()
     {
+        print(Index);
+
+        print(Main);
+
 
         if (Questioning == 0)
         {
@@ -53,23 +59,23 @@ public class Changer : MonoBehaviour
             {
                 if (Character == 0)
                 {
-                    FindObjectOfType<Manager>().StartDialouge(Main, Index);
+                    Manager.GetComponent<Manager>().StartDialouge(Main, Index);
                     MainCh.GetComponent<RawImage>().color = Color.white;
                     TargetCh.GetComponent<RawImage>().color = Color.gray;
 
-                    Target.Character.SetBool("IsTalking", false);
+                    //Target.Character.SetBool("IsTalking", false);
 
                     Character++;
                 }
 
                 else if (Character == 1)
                 {
-                    FindObjectOfType<Manager>().StartDialouge(Target, Index);
+                    Manager.GetComponent<Manager>().StartDialouge(Target, Index);
                     MainCh.GetComponent<RawImage>().color = Color.gray;
                     TargetCh.GetComponent<RawImage>().color = Color.white;
 
                     
-                    Target.Character.SetBool("IsTalking", true);
+                    //Target.Character.SetBool("IsTalking", true);
 
                     Character = 0;
                     Index++;
@@ -79,11 +85,11 @@ public class Changer : MonoBehaviour
             }
             else if (UntilChoices == NChoices)
             {
-                FindObjectOfType<Manager>().ShowQuestions();
+                Manager.GetComponent<Manager>().ShowQuestions();
                 Questioning = 1;
                 NChoices = 0;
 
-                Target.Character.SetBool("IsTalking", false);
+                //Target.Character.SetBool("IsTalking", false);
 
                 Index = 0;
             }
@@ -110,7 +116,7 @@ public class Changer : MonoBehaviour
             {
                 if (Character == 0)
                 {
-                    FindObjectOfType<Manager>().StartQuestion(Main, Index, NQuest);
+                    Manager.GetComponent<Manager>().StartQuestion(Main, Index, NQuest);
                     MainCh.GetComponent<RawImage>().color = Color.white;
                     TargetCh.GetComponent<RawImage>().color = Color.gray;
 
@@ -121,7 +127,7 @@ public class Changer : MonoBehaviour
 
                 else if (Character == 1)
                 {
-                    FindObjectOfType<Manager>().StartQuestion(Target, Index, NQuest);
+                    Manager.GetComponent<Manager>().StartQuestion(Target, Index, NQuest);
                     MainCh.GetComponent<RawImage>().color = Color.gray;
                     TargetCh.GetComponent<RawImage>().color = Color.white;
 
@@ -137,7 +143,7 @@ public class Changer : MonoBehaviour
             {
                 Target.Character.SetBool("IsTalking", false);
                 Index = 0;
-                FindObjectOfType<Manager>().ShowQuestions();
+                Manager.GetComponent<Manager>().ShowChoices();
             }
         }
 
@@ -163,7 +169,7 @@ public class Changer : MonoBehaviour
             {
                 if (Character == 0)
                 {
-                    FindObjectOfType<Manager>().StartChoosing(Main, Index, NQuest);
+                    Manager.GetComponent<Manager>().StartChoosing(Main, Index, NQuest);
                     MainCh.GetComponent<RawImage>().color = Color.white;
                     TargetCh.GetComponent<RawImage>().color = Color.gray;
                     Character++;
@@ -173,7 +179,7 @@ public class Changer : MonoBehaviour
 
                 else if (Character == 1)
                 {
-                    FindObjectOfType<Manager>().StartChoosing(Target, Index, NQuest);
+                    Manager.GetComponent<Manager>().StartChoosing(Target, Index, NQuest);
                     MainCh.GetComponent<RawImage>().color = Color.gray;
                     TargetCh.GetComponent<RawImage>().color = Color.white;
                     Character = 0;
@@ -187,7 +193,7 @@ public class Changer : MonoBehaviour
             else if (Number <= Index )
             {
                 Index = 0;
-                FindObjectOfType<Manager>().ShowChoices();
+                Manager.GetComponent<Manager>().ShowQuestions();
                 Target.Character.SetBool("IsTalking", false);
             }
         }
