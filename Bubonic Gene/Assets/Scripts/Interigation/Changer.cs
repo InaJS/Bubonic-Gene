@@ -48,9 +48,7 @@ public class Changer : MonoBehaviour
 
     public void TriggerDialouge()
     {
-        print(Index);
-
-        print(Main);
+       
 
 
         if (Questioning == 0)
@@ -202,29 +200,36 @@ public class Changer : MonoBehaviour
 
     public void DialougeEnd()
     {
-        print("Ending Conversestion");
+        
         Character = 0;
         Questioning = 0;
         Index = 0;
+        NChoices = 0;
 
         print(Index+ ""+ Questioning + "" + Character);
     }
 
     public void Prev()
     {
+        print(Index);
         if(Index == 0)
         {
             Index = 0;
+            NChoices = 0;
             TriggerDialouge();
         }
         else if (Index > 0)
         {
+            NChoices--;
             Index--;
             TriggerDialouge();
         }
         else
         {
+            
+            print(Index + "Hello");
             Index = 0;
+            NChoices = 0;
             TriggerDialouge();
         }
 
