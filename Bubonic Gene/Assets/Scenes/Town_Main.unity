@@ -5783,6 +5783,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5326322106778645921, guid: 58c23611c259cf64daaa187c2e1a3b6f, type: 3}
   m_PrefabInstance: {fileID: 1177167468}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &283608586
 GameObject:
   m_ObjectHideFlags: 0
@@ -5799,6 +5800,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
 --- !u!1001 &287436451
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7569,8 +7572,14 @@ Transform:
   - {fileID: 2760390888161894265}
   - {fileID: 1606030191}
   - {fileID: 1835585953}
+<<<<<<< HEAD
   m_Father: {fileID: 0}
   m_RootOrder: 9
+=======
+  - {fileID: 42557826}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+>>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &381167549
 GameObject:
@@ -17750,6 +17759,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &944906326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17888,6 +17898,8 @@ CanvasRenderer:
   m_GameObject: {fileID: 945428739}
   m_CullTransparentMesh: 1
 >>>>>>> main
+=======
+>>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
 =======
 >>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
 --- !u!4 &949237312 stripped
@@ -27098,6 +27110,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1377886631
 =======
 --- !u!1 &1381479426
@@ -27270,6 +27283,8 @@ CanvasRenderer:
   m_GameObject: {fileID: 1382917291}
   m_CullTransparentMesh: 1
 >>>>>>> main
+=======
+>>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
 =======
 >>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
 --- !u!1001 &1385597586
@@ -30963,6 +30978,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1547479182
 =======
 --- !u!1 &1550506437
@@ -31069,6 +31085,8 @@ CanvasRenderer:
   m_GameObject: {fileID: 1550506437}
   m_CullTransparentMesh: 1
 >>>>>>> main
+=======
+>>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
 =======
 >>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
 --- !u!4 &1551700824 stripped
@@ -33347,6 +33365,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1683266122
 =======
 --- !u!1 &1682031089
@@ -33438,6 +33457,8 @@ CanvasRenderer:
   m_GameObject: {fileID: 1682031089}
   m_CullTransparentMesh: 1
 >>>>>>> main
+=======
+>>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
 =======
 >>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
 --- !u!1 &1690687935
@@ -34493,6 +34514,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1724139444
 =======
 --- !u!1 &1727397598
@@ -34650,6 +34672,8 @@ CanvasRenderer:
   m_GameObject: {fileID: 1727397598}
   m_CullTransparentMesh: 1
 >>>>>>> main
+=======
+>>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
 =======
 >>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
 --- !u!4 &1732021479 stripped
@@ -43101,6 +43125,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &2124884908
 =======
 --- !u!1 &2123294212
@@ -43157,6 +43182,8 @@ Transform:
   m_RootOrder: 6
 >>>>>>> main
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
 =======
 >>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
 --- !u!1001 &2128217984
@@ -43652,6 +43679,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73341e40e3ea2ce49b4d6d2168da38b1, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &25626505130208459
 GameObject:
@@ -44262,6 +44290,9 @@ GameObject:
 =======
 --- !u!4 &1261958334279082765 stripped
 >>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
+=======
+--- !u!4 &1261958334279082765 stripped
+>>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
 Transform:
   m_CorrespondingSourceObject: {fileID: 5326322106778645921, guid: 58c23611c259cf64daaa187c2e1a3b6f, type: 3}
   m_PrefabInstance: {fileID: 6370770307729692332}
@@ -44277,6 +44308,7 @@ Transform:
   m_PrefabInstance: {fileID: 5935016847125909440}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 3201429963083565949}
   m_LocalRotation: {x: -0.06528515, y: -0.009635409, z: 0.3037944, w: 0.95044935}
   m_LocalPosition: {x: -0.0000002682209, y: 4.3351917, z: 0.0000010728836}
@@ -44291,10 +44323,14 @@ Transform:
 =======
 --- !u!1001 &5935016847125909440
 >>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
+=======
+--- !u!1001 &5935016847125909440
+>>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_TransformParent: {fileID: 638220896}
@@ -44302,6 +44338,9 @@ PrefabInstance:
     - target: {fileID: 5325481293095314677, guid: 58c23611c259cf64daaa187c2e1a3b6f, type: 3}
 =======
     m_TransformParent: {fileID: 2760390888161894265}
+=======
+    m_TransformParent: {fileID: 374076192}
+>>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
 =======
     m_TransformParent: {fileID: 374076192}
 >>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
@@ -44355,6 +44394,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 481285537952950459, guid: 5e0db4dbac37832439a53c6689910472, type: 3}
 >>>>>>> main
       propertyPath: m_Name
@@ -44362,11 +44402,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
 =======
 >>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
+=======
+>>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdd69649146c84a468cef1e96c69b06b, type: 3}
 --- !u!1001 &6370770307729692332
 PrefabInstance:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -51847,6 +51890,8 @@ PrefabInstance:
   m_ObjectHideFlags: 0
 =======
 >>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
+=======
+>>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 638220896}
@@ -51909,6 +51954,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58c23611c259cf64daaa187c2e1a3b6f, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &6426936366054393954
 GameObject:
@@ -58060,6 +58106,11 @@ GameObject:
 --- !u!1001 &6583917854900236698
 PrefabInstance:
   m_ObjectHideFlags: 0
+=======
+--- !u!1001 &6583917854900236698
+PrefabInstance:
+  m_ObjectHideFlags: 0
+>>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 374076192}
@@ -58114,6 +58165,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2426615252687e49bde4f9cfe166590, type: 3}
+<<<<<<< HEAD
+>>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
+=======
 >>>>>>> parent of 5c58ba0 (Update Town_Main.unity)
 --- !u!1001 &8512211334541915837
 PrefabInstance:
