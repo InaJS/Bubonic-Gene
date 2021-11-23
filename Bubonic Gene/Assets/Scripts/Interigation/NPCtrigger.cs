@@ -57,6 +57,7 @@ public class NPCtrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            NoRepeat = false;
             E.SetActive(false);
         }
     }
