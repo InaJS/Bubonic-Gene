@@ -6403,11 +6403,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
-  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
-    are already bound by a Humanoid avatar. These transforms can only be changed
-    by Humanoid clips.\n\tTransform 'girlBone_LeftArm'\n\tTransform 'girlBone_RightArm'\n\tTransform
-    'girlBone_LeftArm'\n\tTransform 'girlBone_RightArm'\n\tFrom animation clip 'Animation_Test'\n\tFrom
-    animation clip 'Animation_Test'"
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
