@@ -10,6 +10,8 @@ public class Manager : MonoBehaviour
     [SerializeField] private Text Name;
     [SerializeField] private Text Words;
 
+    private string FullSentence;
+
     [SerializeField] private Canvas MainView;
     [SerializeField] private Canvas Questions;
     [SerializeField] private Canvas Choice;
@@ -22,16 +24,18 @@ public class Manager : MonoBehaviour
 
     private void Start()
     {
+        
         sentences = new Queue<string>();
     }
 
     public void StartDialouge(Dialouge Character, int Index)
     {
-
+        sentences.Clear();
         Name.text = Character.name;
 
-        Words.text = Character.sentences[Index];
-
+        FullSentence = Character.sentences[Index];
+        StopAllCoroutines();
+        StartCoroutine(TypeSentence(FullSentence));
     }
 
     public void StartQuestion(Dialouge Character, int Index, int NQuest)
@@ -45,9 +49,9 @@ public class Manager : MonoBehaviour
 
         if (NQuest == 1)
         {
-            Words.text = Character.QAnsers1[Index];
+            FullSentence = Character.QAnsers1[Index];
             StopAllCoroutines();
-            StartCoroutine(TypeSentence(Words.text));
+            StartCoroutine(TypeSentence(FullSentence));
         }
 
         if (NQuest == 2)
@@ -58,8 +62,11 @@ public class Manager : MonoBehaviour
         }
 
         if (NQuest == 3)
-            ShowChoices();
-
+        { 
+            Words.text = Character.QAnsers3[Index];
+            StopAllCoroutines();
+            StartCoroutine(TypeSentence(Words.text));
+        }
 
         if (NQuest == 4)
         { 
@@ -111,13 +118,18 @@ public class Manager : MonoBehaviour
     IEnumerator TypeSentence (string sentence)
     {
         
+        
         Words.text = "";
         
         foreach (char letter in sentence.ToCharArray())
         {
+           
             Words.text += letter;
+            
             yield return new WaitForSecondsRealtime(0.015f);
         }
+
+        
     }
 
     public void ShowQuestions()

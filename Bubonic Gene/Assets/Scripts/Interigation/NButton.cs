@@ -12,8 +12,10 @@ public class NButton : MonoBehaviour
 
     [SerializeField] private char Mood;
 
+    [SerializeField] private GameObject Changer;
+
     public void ConvCon()
     {
-        FindObjectOfType<Changer>().SetChoice(Choices, Question, Kind, Mood);
+        Changer.GetComponent<Changer>().SetChoice(Choices, Question, Kind, Mood);
     }
 }

@@ -17,13 +17,9 @@ public class Changer : MonoBehaviour
 
     [SerializeField] private int UntilChoices;
 
-    private static int WhatChoice;
-
     private static int Questioning;
 
     private static int NQuest;
-
-    private static int ChoiceN;
 
     private static int Number;
 
@@ -34,16 +30,17 @@ public class Changer : MonoBehaviour
 
     [SerializeField] private GameObject Manager;
 
-
+    
     private void Start()
     {
+        print("");
         Character = 0;
 
         Index = 0;
 
         NChoices = 0;
 
-        //Target.Character.SetBool("Neutral", true);
+        Target.Character.SetBool("Neutral", true);
     }
 
     public void TriggerDialouge()
@@ -61,7 +58,7 @@ public class Changer : MonoBehaviour
                     MainCh.GetComponent<RawImage>().color = Color.white;
                     TargetCh.GetComponent<RawImage>().color = Color.gray;
 
-                    //Target.Character.SetBool("IsTalking", false);
+                    Target.Character.SetBool("IsTalking", false);
 
                     Character++;
                 }
@@ -72,8 +69,8 @@ public class Changer : MonoBehaviour
                     MainCh.GetComponent<RawImage>().color = Color.gray;
                     TargetCh.GetComponent<RawImage>().color = Color.white;
 
-                    
-                    //Target.Character.SetBool("IsTalking", true);
+
+                    Target.Character.SetBool("IsTalking", true);
 
                     Character = 0;
                     Index++;
@@ -87,7 +84,7 @@ public class Changer : MonoBehaviour
                 Questioning = 1;
                 NChoices = 0;
 
-                //Target.Character.SetBool("IsTalking", false);
+                Target.Character.SetBool("IsTalking", false);
 
                 Index = 0;
             }
@@ -96,19 +93,26 @@ public class Changer : MonoBehaviour
         {
 
             if (NQuest == 1)
+            { 
                 Number = Main.QAnsers1.Length;
-
+            }
 
             if (NQuest == 2)
+            {
                 Number = Main.QAnsers2.Length;
-
+            }
+                
 
             if (NQuest == 3)
+            {
                 Number = Main.QAnsers3.Length;
-
+            }
+                
 
             if (NQuest == 4)
+            {
                 Number = Main.QAnsers4.Length;
+            }    
 
             if (Number > Index)
             {
@@ -206,12 +210,11 @@ public class Changer : MonoBehaviour
         Index = 0;
         NChoices = 0;
 
-        print(Index+ ""+ Questioning + "" + Character);
+       
     }
 
     public void Prev()
     {
-        print(Index);
         if(Index == 0)
         {
             Index = 0;
@@ -226,8 +229,6 @@ public class Changer : MonoBehaviour
         }
         else
         {
-            
-            print(Index + "Hello");
             Index = 0;
             NChoices = 0;
             TriggerDialouge();
@@ -237,6 +238,7 @@ public class Changer : MonoBehaviour
 
     public void SetChoice(int C, int q, char k, char m)
     {
+       
         if (k == 'Q')
         {
             Questioning = 1;
