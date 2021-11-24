@@ -30,9 +30,10 @@ public class Changer : MonoBehaviour
 
     [SerializeField] private GameObject Manager;
 
-
+    
     private void Start()
     {
+        print("");
         Character = 0;
 
         Index = 0;
@@ -92,19 +93,26 @@ public class Changer : MonoBehaviour
         {
 
             if (NQuest == 1)
+            { 
                 Number = Main.QAnsers1.Length;
-
+            }
 
             if (NQuest == 2)
+            {
                 Number = Main.QAnsers2.Length;
-
+            }
+                
 
             if (NQuest == 3)
+            {
                 Number = Main.QAnsers3.Length;
-
+            }
+                
 
             if (NQuest == 4)
+            {
                 Number = Main.QAnsers4.Length;
+            }    
 
             if (Number > Index)
             {
@@ -202,12 +210,11 @@ public class Changer : MonoBehaviour
         Index = 0;
         NChoices = 0;
 
-        print(Index+ ""+ Questioning + "" + Character);
+       
     }
 
     public void Prev()
     {
-        print(Index);
         if(Index == 0)
         {
             Index = 0;
@@ -222,8 +229,6 @@ public class Changer : MonoBehaviour
         }
         else
         {
-            
-            print(Index + "Hello");
             Index = 0;
             NChoices = 0;
             TriggerDialouge();
@@ -233,7 +238,7 @@ public class Changer : MonoBehaviour
 
     public void SetChoice(int C, int q, char k, char m)
     {
-        print(C +""+ q+"" + k +""+ m);
+       
         if (k == 'Q')
         {
             Questioning = 1;

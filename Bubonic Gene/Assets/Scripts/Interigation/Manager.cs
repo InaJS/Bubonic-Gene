@@ -24,6 +24,7 @@ public class Manager : MonoBehaviour
 
     private void Start()
     {
+        
         sentences = new Queue<string>();
     }
 
@@ -48,7 +49,6 @@ public class Manager : MonoBehaviour
 
         if (NQuest == 1)
         {
-            print(Index);
             FullSentence = Character.QAnsers1[Index];
             StopAllCoroutines();
             StartCoroutine(TypeSentence(FullSentence));
@@ -63,7 +63,7 @@ public class Manager : MonoBehaviour
 
         if (NQuest == 3)
         { 
-            Words.text = Character.QAnsers2[Index];
+            Words.text = Character.QAnsers3[Index];
             StopAllCoroutines();
             StartCoroutine(TypeSentence(Words.text));
         }
