@@ -43,7 +43,7 @@ public class Changer : MonoBehaviour
 
         NChoices = 0;
 
-        //Target.Character.SetBool("Neutral", true);
+        Target.Character.SetBool("Neutral", true);
     }
 
     public void TriggerDialouge()
@@ -61,7 +61,7 @@ public class Changer : MonoBehaviour
                     MainCh.GetComponent<RawImage>().color = Color.white;
                     TargetCh.GetComponent<RawImage>().color = Color.gray;
 
-                    //Target.Character.SetBool("IsTalking", false);
+                    Target.Character.SetBool("IsTalking", false);
 
                     Character++;
                 }
@@ -72,8 +72,8 @@ public class Changer : MonoBehaviour
                     MainCh.GetComponent<RawImage>().color = Color.gray;
                     TargetCh.GetComponent<RawImage>().color = Color.white;
 
-                    
-                    //Target.Character.SetBool("IsTalking", true);
+
+                    Target.Character.SetBool("IsTalking", true);
 
                     Character = 0;
                     Index++;
@@ -87,7 +87,7 @@ public class Changer : MonoBehaviour
                 Questioning = 1;
                 NChoices = 0;
 
-                //Target.Character.SetBool("IsTalking", false);
+                Target.Character.SetBool("IsTalking", false);
 
                 Index = 0;
             }
