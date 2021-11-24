@@ -17,13 +17,9 @@ public class Changer : MonoBehaviour
 
     [SerializeField] private int UntilChoices;
 
-    private static int WhatChoice;
-
     private static int Questioning;
 
     private static int NQuest;
-
-    private static int ChoiceN;
 
     private static int Number;
 
@@ -237,6 +233,7 @@ public class Changer : MonoBehaviour
 
     public void SetChoice(int C, int q, char k, char m)
     {
+        print(C +""+ q+"" + k +""+ m);
         if (k == 'Q')
         {
             Questioning = 1;

@@ -143,7 +143,7 @@ Animator:
   m_GameObject: {fileID: 29171585}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 45a8106247b19f346946859f494a6590, type: 2}
+  m_Controller: {fileID: 9100000, guid: 286d0b320e0dab845ae7ad40391e8d6e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2053,6 +2053,7 @@ MonoBehaviour:
   UntilChoices: 2
   MainCh: {fileID: 1563878521}
   TargetCh: {fileID: 1691714390}
+  Manager: {fileID: 1924181557}
 --- !u!1 &785387188
 GameObject:
   m_ObjectHideFlags: 0
@@ -10055,6 +10056,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829327523}
   m_CullTransparentMesh: 1
+--- !u!1 &1840509516 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0a359496b11c86b468e520e19b1d6541, type: 3}
+  m_PrefabInstance: {fileID: 802238356}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1840509517 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 0a359496b11c86b468e520e19b1d6541, type: 3}
+  m_PrefabInstance: {fileID: 802238356}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1840509518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840509516}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96b6999ee76df0e4cba5b04287e2175a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Controller: {fileID: 1840509519}
+  Rb: {fileID: 1840509520}
+  Speed: 6
+  Animator: {fileID: 1840509517}
+  TurnSmoothTime: 0.1
+--- !u!143 &1840509519
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840509516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1840509520
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840509516}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1854006024
 GameObject:
   m_ObjectHideFlags: 0
@@ -10246,7 +10308,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1924181558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10294,7 +10356,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1924181557}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
@@ -10347,11 +10409,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: {fileID: 1597123967}
   Words: {fileID: 1085769195}
-  MainView: {fileID: 1924181557}
+  MainView: {fileID: 1924181560}
   Questions: {fileID: 2062560665}
   Choice: {fileID: 843501377}
   Conversastion: {fileID: 448309300}
   Menu: {fileID: 911614785}
+  Player: {fileID: 1840509516}
+  Changer: {fileID: 749038594}
 --- !u!1 &1978620196
 GameObject:
   m_ObjectHideFlags: 0

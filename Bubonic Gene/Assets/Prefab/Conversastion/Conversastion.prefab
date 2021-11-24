@@ -22,7 +22,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1435312636509038803
 RectTransform:
   m_ObjectHideFlags: 0
@@ -160,7 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 791f83167049d484a9e5713170e5a114, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Doctor
+  name: The Doctor
   Character: {fileID: 0}
   sentences:
   - Hi
@@ -346,6 +346,7 @@ MonoBehaviour:
   Question: 2
   Kind: 81
   Mood: 0
+  Changer: {fileID: 1435312636509038815}
 --- !u!1 &1435312636684585181
 GameObject:
   m_ObjectHideFlags: 0
@@ -951,6 +952,7 @@ MonoBehaviour:
   Question: 0
   Kind: 67
   Mood: 78
+  Changer: {fileID: 1435312636509038815}
 --- !u!1 &1435312636918670923
 GameObject:
   m_ObjectHideFlags: 0
@@ -1921,6 +1923,7 @@ MonoBehaviour:
   Question: 3
   Kind: 81
   Mood: 0
+  Changer: {fileID: 1435312636509038815}
 --- !u!1 &1435312637505727810
 GameObject:
   m_ObjectHideFlags: 0
@@ -2071,6 +2074,7 @@ MonoBehaviour:
   Question: 0
   Kind: 67
   Mood: 78
+  Changer: {fileID: 1435312636509038815}
 --- !u!1 &1435312637614327448
 GameObject:
   m_ObjectHideFlags: 0
@@ -2375,7 +2379,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 8400000, guid: 8c957c5a2555cda48829966ddaba6ec5, type: 2}
+  m_Texture: {fileID: 0}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -2614,6 +2618,7 @@ MonoBehaviour:
   Question: 1
   Kind: 81
   Mood: 0
+  Changer: {fileID: 1435312636509038815}
 --- !u!1 &1435312637853395224
 GameObject:
   m_ObjectHideFlags: 0
@@ -2764,6 +2769,7 @@ MonoBehaviour:
   Question: 0
   Kind: 67
   Mood: 78
+  Changer: {fileID: 1435312636509038815}
 --- !u!1 &1435312638128421098
 GameObject:
   m_ObjectHideFlags: 0
